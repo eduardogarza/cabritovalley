@@ -94,7 +94,7 @@ a:focus {
 }
 
 .home {
-	background: url(../img/fundidora.jpg) no-repeat top fixed;
+	background: url(../img/mtyhome.png) no-repeat top fixed;
 	position: relative;
 	width: 100%;
 	position: relative;
@@ -440,7 +440,7 @@ blockquote {
 	z-index: 1000;
 }
 .numbers {
-	background-image: url('../img/monterreycerro.jpg');
+	background-image: url('../img/monterreycerro.png');
 	background-size: cover;
 background-attachment: fixed;
 }
