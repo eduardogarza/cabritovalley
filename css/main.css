@@ -96,9 +96,10 @@ a:focus {
 .home {
 	background: url(../img/mtyhome.png) no-repeat top fixed;
 	position: relative;
+	height: 100%;
 	width: 100%;
 	position: relative;
-	background-size: auto !100%;
+	background-size: cover;
 }
 .slide {
 	position: absolute;
