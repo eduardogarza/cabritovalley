@@ -698,7 +698,7 @@ Forms
 		-webkit-transform: translateX(-40px);
 		transform: translateX(-40px);
 	}
-	70% {
+	100% {
 		opacity: 1;
 		-webkit-transform: translateX(0);
 		transform: translateX(0);
@@ -707,11 +707,11 @@ Forms
 @keyframes fadeInLeft {
 	0% {
 		opacity: 0;
-		-webkit-transform: translateX(-40px);
-		-ms-transform: translateX(-40px);
-		transform: translateX(-40px);
+		-webkit-transform: translateX(0px);
+		-ms-transform: translateX(0px);
+		transform: translateX(0px);
 	}
-	70% {
+	100% {
 		opacity: 1;
 		-webkit-transform: translateX(0);
 		-ms-transform: translateX(0);
@@ -729,7 +729,7 @@ Forms
 		-webkit-transform: translateX(0px);
 		transform: translateX(0px);
 	}
-	70% {
+	100% {
 		opacity: 1;
 		-webkit-transform: translateX(0);
 		transform: translateX(0);
@@ -742,7 +742,7 @@ Forms
 		-ms-transform: translateX(0px);
 		transform: translateX(0px);
 	}
-	70% {
+	100% {
 		opacity: 1;
 		-webkit-transform: translateX(0);
 		-ms-transform: translateX(0);
