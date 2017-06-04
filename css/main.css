@@ -698,7 +698,7 @@ Forms
 		-webkit-transform: translateX(-40px);
 		transform: translateX(-40px);
 	}
-	100% {
+	70% {
 		opacity: 1;
 		-webkit-transform: translateX(0);
 		transform: translateX(0);
@@ -711,7 +711,7 @@ Forms
 		-ms-transform: translateX(-40px);
 		transform: translateX(-40px);
 	}
-	100% {
+	70% {
 		opacity: 1;
 		-webkit-transform: translateX(0);
 		-ms-transform: translateX(0);
@@ -729,7 +729,7 @@ Forms
 		-webkit-transform: translateX(0px);
 		transform: translateX(0px);
 	}
-	100% {
+	70% {
 		opacity: 1;
 		-webkit-transform: translateX(0);
 		transform: translateX(0);
@@ -742,7 +742,7 @@ Forms
 		-ms-transform: translateX(0px);
 		transform: translateX(0px);
 	}
-	100% {
+	70% {
 		opacity: 1;
 		-webkit-transform: translateX(0);
 		-ms-transform: translateX(0);
