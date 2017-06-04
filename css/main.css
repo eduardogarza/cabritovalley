@@ -94,7 +94,7 @@ a:focus {
 }
 
 .home {
-	background: url(../img/mtyhome.png) no-repeat top fixed;
+	background: url(../img/mtyhome.png) no-repeat   ;
 	position: relative;
 	width: 100%;
 	position: relative;
