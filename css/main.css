@@ -45,7 +45,7 @@ a:focus {
 }
 
 .navbar-smak {
-	background: rgba(19, 19, 22, 0.2);
+	background: transparent;
 	transition: all 0.5s;
 }
 
@@ -54,7 +54,7 @@ a:focus {
 }
 
 .navbar-small {
-	background: rgba(19, 19, 22, 0.7);
+	background: rgba(19, 19, 22, 1);
 }
 
 .navbar-small .nav {
@@ -1293,7 +1293,7 @@ RESPONSIVE
 }
 @media (min-width: 992px) and (max-width: 1199px) {
 	.lead {
-		font-size: 30px;
+		font-size: 0px;
 	}
 }
 
