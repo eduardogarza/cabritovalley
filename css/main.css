@@ -288,6 +288,7 @@ a:focus {
 
 .team{
 	list-style: none;
+	margin-right: 40px;
 }
 
 .team-extended .row{
@@ -402,6 +403,9 @@ cursor: pointer;
 }
 .team-member img {
 	margin-bottom: 10px;
+	display: block;
+    margin: 0 auto;
+    width: 100%;
 }
 .branded-section {
 	width: 100%;
@@ -722,8 +726,8 @@ Forms
 @-webkit-keyframes fadeInRight {
 	0% {
 		opacity: 0;
-		-webkit-transform: translateX(40px);
-		transform: translateX(40px);
+		-webkit-transform: translateX(0px);
+		transform: translateX(0px);
 	}
 	100% {
 		opacity: 1;
@@ -734,9 +738,9 @@ Forms
 @keyframes fadeInRight {
 	0% {
 		opacity: 0;
-		-webkit-transform: translateX(40px);
-		-ms-transform: translateX(40px);
-		transform: translateX(40px);
+		-webkit-transform: translateX(0px);
+		-ms-transform: translateX(0px);
+		transform: translateX(0px);
 	}
 	100% {
 		opacity: 1;
@@ -754,8 +758,8 @@ Forms
 @-webkit-keyframes fadeInUp {
 	0% {
 		opacity: 0;
-		-webkit-transform: translateY(40px);
-		transform: translateY(40px);
+		-webkit-transform: translateY(20px);
+		transform: translateY(20px);
 	}
 	100% {
 		opacity: 1;
@@ -767,9 +771,9 @@ Forms
 @keyframes fadeInUp {
 	0%{
 		opacity:0;
-		-webkit-transform:translateY(40px);
-		-ms-transform:translateY(40px);
-		transform:translateY(40px);
+		-webkit-transform:translateY(20px);
+		-ms-transform:translateY(20px);
+		transform:translateY(20px);
 	}
 	
 	100%{
@@ -787,8 +791,8 @@ Forms
 @-webkit-keyframes fadeInDown {
 	0% {
 		opacity: 0;
-		-webkit-transform: translateY(-40px);
-		transform: translateY(-40px);
+		-webkit-transform: translateY(-20px);
+		transform: translateY(-20px);
 	}
 	100% {
 		opacity: 1;
@@ -800,9 +804,9 @@ Forms
 @keyframes fadeInDown {
 	0%{
 		opacity:0;
-		-webkit-transform:translateY(-40px);
-		-ms-transform:translateY(-40px);
-		transform:translateY(-40px);
+		-webkit-transform:translateY(-20px);
+		-ms-transform:translateY(-20px);
+		transform:translateY(-20px);
 	}
 	
 	100%{
