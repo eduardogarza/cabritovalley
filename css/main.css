@@ -198,6 +198,27 @@ a:focus {
 .about-item{
 	margin-bottom: 50px;
 }
+.invest-item{
+
+	margin-bottom: 50px;
+}
+
+.invest-item{
+
+	margin-left: 50px;
+}
+
+.invest-item{
+
+	margin-right: 50px;
+}
+
+.invest-item h4 {
+	font-weight: normal;
+}
+.invest-item p {
+	margin-left: 60px;
+}
 .about-item i {
 	font-size: 25px;
 	line-height: 50px;
@@ -211,9 +232,25 @@ a:focus {
 .about-item h4{
 	font-weight: normal;
 }
+
+.invest-item i {
+	font-size: 45px;
+	line-height: 50px;
+	color: #fdd300;
+}
 .process-item {
 	text-align: center
 }
+
+.invest-item {
+	text-align: left;
+}
+
+.invest-item .fa {
+	color: #fdd300
+}
+
+
 .align-center {
 	text-align: center
 }
@@ -386,7 +423,7 @@ cursor: pointer;
 	color: #fdd300;
 	border-color: #fdd300;
 }
- 
+
 .team-member .name {
 	display: block;
 	text-transform: uppercase;
@@ -414,7 +451,7 @@ cursor: pointer;
 background-size: cover;
 background-attachment: fixed;
 	color: #fff;
-	
+
 }
 .branded-section p {
 	color: #fff;
@@ -450,7 +487,7 @@ background-attachment: fixed;
 }
 .process {
 	background: url('../img/how-we-do-it.jpg') 0px 0px no-repeat;
-	
+
 background-size: cover;
 background-attachment: fixed;
 
@@ -474,7 +511,7 @@ background-attachment: fixed;
 	font-size: 35px;
 	letter-spacing: -3px;
 	line-height: 130px;
-	
+
 	position: absolute;
 	text-align: center;
 	top: 5px;
@@ -775,7 +812,7 @@ Forms
 		-ms-transform:translateY(20px);
 		transform:translateY(20px);
 	}
-	
+
 	100%{
 		opacity: 1;
 		-webkit-transform: translateY(0);
@@ -808,7 +845,7 @@ Forms
 		-ms-transform:translateY(-20px);
 		transform:translateY(-20px);
 	}
-	
+
 	100%{
 		opacity: 1;
 		-webkit-transform: translateY(0);
@@ -1060,7 +1097,7 @@ Forms
 	border-width: 2px;
 }
 .contact-form .form-control:focus {
-	border: 2px solid #FEE600;
+	border: 2px solid #fdd300;
 }
 .contact-form .form-control:focus {
 	background: rgba(255, 255, 255, 0.1);
@@ -1300,9 +1337,9 @@ RESPONSIVE
 .loader{
 	display: block;
 	background: #fdd300;
-	position:fixed; 
+	position:fixed;
 	top:0; left:0; right:0; bottom:0;
-	width:100%; 
+	width:100%;
 	height:100%;
 	clear:both;
 	-moz-transition: all 2s ease;
