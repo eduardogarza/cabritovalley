@@ -43,7 +43,7 @@ a:focus {
 	color: #fdd300;
 }
 .row {
-	margin-bottom: 50px;
+	margin-bottom: 10px;
 }
 
 .nav > li > a{
@@ -210,7 +210,7 @@ a:focus {
 }
 
 .about-item{
-	margin-bottom: 50px;
+	margin-bottom: 0px;
 }
 .invest-item{
 
