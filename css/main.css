@@ -12,9 +12,15 @@ body {
 	font-weight: lighter;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1,h2,h3,h5,h6 {
 	font-family: 'Lato', sans-serif;
 	text-transform: uppercase;
+	font-weight: bold;
+	color: #000;
+}
+
+h4 {
+	font-family: 'Lato', sans-serif;
 	font-weight: bold;
 	color: #000;
 }
@@ -189,6 +195,14 @@ a:focus {
 }
 .gray {
 	background: #FBFBFB;
+}
+
+.whitesh{
+	background: #fff;
+}
+
+.gray2{
+	background: #F4F5F7;
 }
 .service-item {
 	padding: 0 20px;
